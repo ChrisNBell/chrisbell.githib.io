@@ -11,6 +11,7 @@
     align-items:center;
     border: 3px solid gray;
     padding:10px;
+    margin-top: 3%;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -19,13 +20,14 @@
     justify-content: center;
 }
 
-h2{
+h2, h3{
     display: flex;
     justify-content: center;
     align-items: center;
     color: darkslategrey;
     text-decoration:double;
     font-weight:bold;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .footer{
@@ -33,4 +35,24 @@ h2{
     font-family: 'Libre Baskerville', serif;
     margin-top: 5%;
     
+}
+
+.jumbotron{
+    margin-top: 3%;
+}
+
+p{
+    font-size:medium;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.img-fluid#img-1{
+    margin-right:5%;
+}
+
+.img-fluid#img-2{
+    margin-left:5%;
 }
